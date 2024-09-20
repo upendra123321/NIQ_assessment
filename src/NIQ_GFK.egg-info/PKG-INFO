@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: NIQ_GFK
 Version: 0.1.0
-Summary: NIV Smart Track Femsa project.
+Summary: NIQ Assngment
 Description-Content-Type: text/markdown
 Requires-Dist: pyspark==3.5.2
 Provides-Extra: test
