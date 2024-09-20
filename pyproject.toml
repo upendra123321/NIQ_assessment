@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.2.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NIQ_GFK_assingment"
+version = "1.0.0"
+description = "This is the NIQ_GFK_assingment"
+readme = "README.md"
+
+dependencies = [
+    "pyspark == 3.5.2 "
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest == 7.4.3",
+]
+
+[tool.pytest]
+norecursedirs = ["dist", "build", ".tox", ".toml"]
+testpaths = "tests/"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src/"
+]
+testpaths = [
+    "tests/"
+]

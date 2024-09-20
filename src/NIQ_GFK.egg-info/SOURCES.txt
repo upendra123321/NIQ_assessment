@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/NIQ_GFK.egg-info/PKG-INFO
+src/NIQ_GFK.egg-info/SOURCES.txt
+src/NIQ_GFK.egg-info/dependency_links.txt
+src/NIQ_GFK.egg-info/requires.txt
+src/NIQ_GFK.egg-info/top_level.txt
+src/processor/__init__.py
+src/processor/calculation.py
+src/util/__init__.py
+src/util/constants.py
+src/util/utils.py
+tests/test_read_data.py

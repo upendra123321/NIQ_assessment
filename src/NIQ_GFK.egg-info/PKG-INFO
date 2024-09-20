@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: NIQ_GFK
+Version: 0.1.0
+Summary: NIV Smart Track Femsa project.
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark==3.5.2
+Provides-Extra: test
+Requires-Dist: pytest==7.4.3; extra == "test"
+
+# This is assignment
+NIQ GFK Assignment
